@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Roboto,Arial,sans-serif;
+}
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    /*padding: 1.875em 0 0.625em;*/
+    padding: -0.125em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    height: 570px;
+}
+
+header p{
+    width: 446px;
+}
+.grille{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    
+}
+
+.stats__header{
+    margin-top: 58px;
+}
+
+
+
+.col-right{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.cadre-01{
+    margin-top: 10px;
+}
+
+.cadre-02{
+    margin-top: 0px;
+}
+.grid-item {
+    width: 225px;
+    height: 240px;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.grille:before {
+    content: "";
+    position: absolute;
+    right: 67%;
+    top: 45%;
+    background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+    pointer-events: none;
+}
+
+
+
+
+
+
+.section-flex{
+    height: auto;
+}
+.offices__header {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+
+.offices__header h1 {
+    font-size: 2.1428571429em;
+    font-family: "Work Sans", Arial, sans-serif;;
+    
+}
+
+.offices__header p {
+    line-height: 1.7142857143;
+}
+p {
+    margin: 1.6em 0;
+}
+
+h1 {
+
+    color: #00b39b;
+}
+
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+
+.offices {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.galerie{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 80%;
+   max-width: 1110px;
+   margin: 70px auto 0;
+   padding: 0;
+   /*border: 2px solid;*/
+    width: 995px;
+    height: 1183px;
+}
+
+.item{
+    width: 310px;
+    height: 370px;
+    margin: 10px;
+    
+    /*border-top: 2px solid;*/
+    border-radius: 10px;
+}
+
+.office__inner:hover {
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+}
+
+.office__inner {
+    box-shadow: 0 5px 10px 0 transparent;
+    transition: box-shadow .2s ease 0s;
+}
+.office__inner {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+}
+
+.item img{
+    margin: 0;
+
+    width: 309px;
+    height: 278px;
+}
+.office__desc {
+    display: flex;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    justify-content:space-between;
+}
+.office .btn {
+    float: right;
+}
+
+.btn--small {
+    font-size: .625rem;
+    padding: 1em 1.5em;
+}
+
+
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .65rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+
+
+
+a{
+    margin: 0;
+    text-decoration: none;
+}
+
+.join-us__header {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 76px;
+}
+.join-us {
+    margin: 5rem auto;
+    
+}
+.join-us__header h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+.main-footer .section__inner, .main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
